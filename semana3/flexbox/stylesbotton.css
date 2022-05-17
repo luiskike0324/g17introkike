@@ -1,0 +1,20 @@
+.contenedor{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: column-reverse wrap-reverse; */
+    justify-content: space-around;
+    align-items: flex-start;
+    /* align-content: center; */
+}
+
+p{
+    width: 258px;
+    background-color: greenyellow;
+}
+button{
+    height: 100px;
+    width: 80px;
+
+}
