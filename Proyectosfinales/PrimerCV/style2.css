@@ -1,0 +1,123 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    margin: 0;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+
+nav {
+    padding-left: 30px;
+}
+
+nav a {
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+    color: red;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+main{
+    margin: 1rem auto;
+    width: 350px;
+    height: 530px;
+    background-color: #000000BF;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 15px  30px;
+    border-radius: 3px;
+
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+form{
+    width: 314px;
+    height: auto;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#email, #password{
+    width: 314px;
+    height: 50px;
+    background-color: #333333;
+    border-color: #333333;
+    border-radius: 3px;
+    outline: none;
+}
+
+#email:focus, #password:focus{
+    border-bottom: 2px solid rgb(255, 136, 0);
+}
+#boton {
+    width: 314px;
+    height: 50px;
+    background-color: #e50914;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.texto1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #b3b3b3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #737373;
+    margin-top: 8px;
+}
+
+.texto2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.texto2 a:hover {
+    text-decoration: underline;
+}
+
+.texto3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #8c8c8c;
+    margin-top: 5px;
+}
+
+footer{
+    width: 100vw;
+    height: auto;
+    background-color: #000000BF;
+    display: flex;
+    align-content: flex-end;
+}
+
+.texto4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #757575;
+}

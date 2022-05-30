@@ -1,0 +1,9 @@
+body {
+    background-color:aquamarine;    
+}
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    align-items: center;
+}
